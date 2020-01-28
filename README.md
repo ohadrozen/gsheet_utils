@@ -9,7 +9,8 @@ This library enables managing your experiments using a google spreadsheet. You'l
 * Add comments to the experiments
 * Easily notice the differences between the different parameters of each run
 
-![Example to automatically generated speadsheet](spreadsheet_example_image.JPG)
+![Example to automatically generated speadsheet](spreadsheet_example_image1.JPG)
+![Example to automatically generated speadsheet](spreadsheet_example_image2.JPG)
 
 ## Getting Started
 

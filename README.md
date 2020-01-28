@@ -22,7 +22,7 @@ Go to this [template sheet](https://docs.google.com/spreadsheets/d/1xPF3Ji1GSgHl
 Notice how you name it. We'll soon use it.
 
 ### 3) Share your spreadsheet
-From the Google spreadsheet, click the 'Share' button and add the email address that appears under "client_email" in the json file you've downloaded.
+From the Google spreadsheet, click the 'Share' button (enable editing!) and add the email address that appears under "client_email" in the json file you've downloaded.
 
 
 That's it. You're ready to go.

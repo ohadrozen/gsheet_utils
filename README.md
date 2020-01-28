@@ -26,7 +26,12 @@ From the Google spreadsheet, click the 'Share' button and add the email address 
 
 
 That's it. You're ready to go.
-Now try running [gsheet_util_example.py](gsheet_util_example.py):
+Now try running [gsheet_util_example.py](gsheet_util_example.py) with the following command line:
+```
+python gsheet_util_example.py --learning_rate 2e-5 --max_examples 100
+```
+
+You can also see the file here:
 ```
 import gsheets_utils as gu
 import socket

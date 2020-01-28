@@ -1,5 +1,4 @@
-# Google Spreadsheet Utils
-Managing experiments with google spreadsheets API
+# Managing Experiments Using Google Spreadsheets API
 
 ## What is it?
 This library enables managing your experiments using a google spreadsheet. You'll be able to:
@@ -79,3 +78,9 @@ gse is now attached to a specific experiment which will now be represented in a 
 gse.update({'Accuracy':accuracy, 'Loss':loss, 'Status': 'Finished Training', 'Epoch1':epoch1_acc })
 ```
 Updating the relevant row according to the columns and values entered in a dictionary form
+
+## Disclaimer
+This is not an official Google product.
+
+## Contact information
+For help or issues using gsheet_utils, please contact Ohad Rozen (ohadrozen@gmail.com).

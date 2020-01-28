@@ -5,7 +5,6 @@ import time
 
 MySheetName = 'my_experiments'  # change to your Spreadsheet name
 # key_filename = '[...].json' # the name of the file you've downloaded when enabling the API
-key_filename = 'testpython-4005dcd556f7.json'
 
 start_time = gu.now_str()
 server_name = socket.gethostname()

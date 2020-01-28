@@ -18,7 +18,7 @@ Follow the instructions [here](https://towardsdatascience.com/accessing-google-s
 Important: while doing so, make sure to locate the json credentials file in your working directory. The python program will need it.
 
 ### 2) Create a copy of the spreadsheet
-Go to this template [sheet](https://docs.google.com/spreadsheets/d/1xPF3Ji1GSgHlA92LCotzDEj1QEKOMajRQimZi9LI2h8/edit?usp=sharing), go to File->Make a copy. 
+Go to this [template sheet](https://docs.google.com/spreadsheets/d/1xPF3Ji1GSgHlA92LCotzDEj1QEKOMajRQimZi9LI2h8/edit?usp=sharing), go to File -> Make a copy. 
 Notice how you name it. We'll soon use it.
 
 ### 3) Share your spreadsheet

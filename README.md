@@ -67,14 +67,14 @@ gse.update({'Accuracy':accuracy, 'Loss':loss, 'Status': 'Finished Training', 'Ep
 ```
 
 ## Methods
-# Initializing
+### Initializing
 ```
 gse = gu.GSpreadExperiment(MySheetName, key_filename, start_time, server_name, data, first_status='started training')
 ```
 gse is now attached to a specific experiment which will now be represented in a specific row in the spreadsheet. This code line will insert a row at the end of the table, with the relevant start_time, server_name and with the rest of the information in 'data'. 
 'data' is a dictionary of the form {'column1':value1, 'column2':value2, ...}. Columns that don't already exist in the spreadsheet will be automatically added (on the right)
 
-# update
+### update
 ```
 gse.update({'Accuracy':accuracy, 'Loss':loss, 'Status': 'Finished Training', 'Epoch1':epoch1_acc })
 ```

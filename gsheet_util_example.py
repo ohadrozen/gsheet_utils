@@ -31,6 +31,6 @@ accuracy = 0.91
 loss = 0.36
 # ...
 
-# updating the existing columns 'Accuracy' and 'Loss', and adding a new column 'Epoch1'
+# updating the existing columns 'Accuracy', 'Loss' and 'Status', and adding a new column 'Epoch1'
 print("updating the existing columns 'Accuracy', 'Loss' and 'Status', and adding a new column 'Epoch1'")
 gse.update({'Accuracy':accuracy, 'Loss':loss, 'Status': 'Finished Training', 'Epoch1':epoch1_acc })

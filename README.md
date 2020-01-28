@@ -14,7 +14,7 @@ This library enables managing your experiments using a google spreadsheet. You'l
 ## Getting Started
 
 ### 1) Enable Google API. 
-Follow the instructions [here](https://towardsdatascience.com/accessing-google-spreadsheet-data-using-python-90a5bc214fd2).
+Follow the instructions [here](https://towardsdatascience.com/accessing-google-spreadsheet-data-using-python-90a5bc214fd2) until the "Reading spreadsheet data with Python" section, not including.
 Important: while doing so, make sure to locate the json credentials file in your working directory. The python program will need it.
 
 ### 2) Create a copy of the spreadsheet

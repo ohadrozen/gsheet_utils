@@ -14,8 +14,8 @@ This library enables managing your experiments using a google spreadsheet. You'l
 ## Getting Started
 
 ### 1) Enable Google API. 
-Follow Steps 1 and 2 in the instructions [here](https://developers.google.com/sheets/api/quickstart/python).
-Important: while doing so, locate the file 'credentials.json' in your working directory. The python program will need it.
+Follow the instructions [here](https://towardsdatascience.com/accessing-google-spreadsheet-data-using-python-90a5bc214fd2).
+Important: while doing so, make sure to locate the json credentials file in your working directory. The python program will need it.
 
 ### 2) Create a copy of the spreadsheet
 Notice how you name it. We'll soon use it. You can make a copy from this [sheet](https://docs.google.com/spreadsheets/d/1xPF3Ji1GSgHlA92LCotzDEj1QEKOMajRQimZi9LI2h8/edit?usp=sharing)
@@ -34,7 +34,6 @@ import time
 
 MySheetName = 'my_experiments'  # change to your Spreadsheet name
 # key_filename = '[...].json' # the name of the file you've downloaded when enabling the API
-key_filename = 'testpython-4005dcd556f7.json'
 
 start_time = gu.now_str()
 server_name = socket.gethostname()

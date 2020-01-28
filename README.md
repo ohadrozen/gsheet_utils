@@ -6,7 +6,7 @@ This library enables managing your experiments using a google spreadsheet. You'l
 * Add real-time updates to each experiment, e.g. 'starting 2nd Epoch', 'Eval #1 Accuracy: 92.3%', etc.
 * Make manual changes to the table
 * Add comments to the experiments
-* Easily notice the differences between the different parameters of each run (colored in light green)
+* Easily notice which parameters have changed between the different runs (highlighted in green)
 
 ![](images/spreadsheet_example_image1.JPG)
 ![](images/spreadsheet_example_image2.JPG)

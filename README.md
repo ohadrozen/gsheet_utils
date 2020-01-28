@@ -2,7 +2,7 @@
 
 ## What is it?
 This library enables managing your experiments using a google spreadsheet. You'll be able to:
-* Document each experiment in a row, containing all of the experiments parameters (including those from the command line)
+* Document each experiment on a separate row , containing all of the experiment’s parameters (including those from the command line)
 * Add real-time updates to each experiment, e.g. 'starting 2nd Epoch', 'Eval #1 Accuracy: 92.3%', etc.
 * Make manual changes to the table
 * Add comments to the experiments

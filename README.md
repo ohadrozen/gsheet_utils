@@ -29,7 +29,6 @@ From the Google spreadsheet, click the 'Share' button (enable editing!) and add 
 conda install gspread
 conda install oauth2client
 pip install gspread-formatting
-
 ```
 
 That's it. You're ready to go.

@@ -24,6 +24,13 @@ Notice how you name it. We'll soon use it.
 ### 3) Share your spreadsheet
 From the Google spreadsheet, click the 'Share' button (enable editing!) and add the email address that appears under "client_email" in the json file you've downloaded.
 
+### 4) Install packages
+```
+conda install gspread
+conda install oauth2client
+pip install gspread-formatting
+
+```
 
 That's it. You're ready to go.
 Now try running [gsheet_util_example.py](gsheet_util_example.py) with the following command line:

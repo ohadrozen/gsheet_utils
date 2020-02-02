@@ -90,6 +90,9 @@ gse.update({'Accuracy':accuracy, 'Loss':loss, 'Status': 'Finished Training', 'Ep
 ```
 Updating the relevant row according to the columns and values entered in a dictionary form
 
+## Please Note
+* don't do anything that change the row numbers while experiments are running, since each row object is identified with the initial row index, that shoudln't be changed (or your sheet will get messy).
+
 ## Disclaimer
 This is not an official Google product.
 
